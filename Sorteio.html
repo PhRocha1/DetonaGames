@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/Logo 2.jpeg" />
+    <title>Sorteio</title>
+</head>
+<body class="index">
+
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="dicas.html">Dicas</a></li>
+            <li><a href="detonados.html">Detonados</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="logo">
+        <img src="img/Logo 1.jpeg" alt="Logo do Site">
+      </div>
+    
+      <section id="hero">
+        <div id="question-container">
+            <h1>Pergunta: Qual é o jogo que vendeu mais copias?</h1>
+            <input type="text" id="answer-input">
+            <button onclick="checkAnswer()">Enviar Resposta</button>
+          </div>
+          <div id="gif-container" style="display: none;">
+            <img src="img/sorteio.gif" alt="GIF">
+          </div>
+          <div id="hint-container"></div>
+      </section>
+    
+    
+      <footer>
+        <p>&copy; 2023 DetonaGames. Todos os direitos reservados.</p>
+      </footer>
+      <script src="sorteio.js"></script>
+</body>
+</html>
